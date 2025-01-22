@@ -5,7 +5,7 @@ class vehicle:
         self .max_speed = max_speed
         self.mileage = mileage
 
-class Bus(vehicle):
+class bus(vehicle):
     pass
-school_bus = Bus("school  volvo", 180, 12)
+school_bus = bus("  volvo", 180, 12)
 print("Vehicle Name:", school_bus.name, "speed:", school_bus.max_speed, "mileage:", school_bus.mileage)
